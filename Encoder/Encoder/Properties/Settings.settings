@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Encoder.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="encodingToRead" Type="System.String" Scope="User">
+      <Value Profile="(Default)">iso-8859-7</Value>
+    </Setting>
+    <Setting Name="encodingToWrite" Type="System.String" Scope="User">
+      <Value Profile="(Default)">unicode</Value>
+    </Setting>
+    <Setting Name="extensionToSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.srt</Value>
+    </Setting>
+    <Setting Name="goInFolders" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="autoClose" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,11 @@
+c:\users\john\documents\visual studio 2015\Projects\Encoder\Encoder\bin\Debug\Encoder.exe.config
+c:\users\john\documents\visual studio 2015\Projects\Encoder\Encoder\bin\Debug\Encoder.exe
+c:\users\john\documents\visual studio 2015\Projects\Encoder\Encoder\bin\Debug\Encoder.pdb
+c:\users\john\documents\visual studio 2015\Projects\Encoder\Encoder\obj\Debug\Encoder.csprojResolveAssemblyReference.cache
+c:\users\john\documents\visual studio 2015\Projects\Encoder\Encoder\obj\Debug\Encoder.Form1.resources
+c:\users\john\documents\visual studio 2015\Projects\Encoder\Encoder\obj\Debug\Encoder.Properties.Resources.resources
+c:\users\john\documents\visual studio 2015\Projects\Encoder\Encoder\obj\Debug\Encoder.csproj.GenerateResource.Cache
+c:\users\john\documents\visual studio 2015\Projects\Encoder\Encoder\obj\Debug\Encoder.exe
+c:\users\john\documents\visual studio 2015\Projects\Encoder\Encoder\obj\Debug\Encoder.pdb
+c:\users\john\documents\visual studio 2015\Projects\Encoder\Encoder\obj\Debug\Encoder.Form2.resources
+c:\users\john\documents\visual studio 2015\Projects\Encoder\Encoder\obj\Debug\Encoder.Form3.resources
