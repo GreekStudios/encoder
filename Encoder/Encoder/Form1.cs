@@ -33,7 +33,6 @@ namespace Encoder
                     Encode(folder);
             }
         }
-
         private void Encode(string dir)
         {
             try
@@ -61,12 +60,11 @@ namespace Encoder
 
                     if (Properties.Settings.Default.autoClose)
                         timer1.Start();
+
                 }
                 else
                 {
-                    Form2 f = new Form2();
-                    f.ShowDialog();
-                    listBox1.Items.Add("No " + Properties.Settings.Default.extensionToSearch + " files found !");
+                    listBox1.Items.Add("No " + Properties.Settings.Default.extensionToSearch + " files found at '" + dir + "'");
                     if (Properties.Settings.Default.autoClose)
                         timer1.Start();
                 }
@@ -75,6 +73,31 @@ namespace Encoder
             catch { }
         }
         int timer = 3;
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+    
+        }
+
+        void ShowSettings()
+        {
+            Form2 f = new Form2();
+            f.ShowDialog();
+        
+
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F1)
+            {
+                timer1.Stop();
+                ShowSettings();
+                if (Properties.Settings.Default.autoClose)
+                    timer1.Start();
+            }
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (timer > 0)
@@ -85,6 +108,17 @@ namespace Encoder
 
             if (timer <= 0)
                 Application.Exit();
+        }
+
+        private void listBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F1)
+            {
+                timer1.Stop();
+                ShowSettings();
+                if (Properties.Settings.Default.autoClose)
+                    timer1.Start();
+            }
         }
     }
 }
